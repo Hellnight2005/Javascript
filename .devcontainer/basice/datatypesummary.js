@@ -44,3 +44,28 @@ const myfunction=function(){
 }
 console.log(typeof myfunction)
 // type of function is [function]
+
+
+
+                    //  Memory//
+// stack (primitive), Heap (Non-primitive)
+//   call by value      call by reference
+
+let Gamename = "HellNight"
+let anotherGamename = Gamename
+anotherGamename = "Headmade"
+console.log(Gamename)
+console.log(anotherGamename)
+
+let User ={
+    Email : "User123@gmail.com",
+    upi : "9852314658@com",
+}
+
+let User1 = User
+User1.Email = "User456@gmail.com"
+
+console.log(User.Email)
+console.log(User1.Email)
+
+
