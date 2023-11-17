@@ -22,3 +22,31 @@ let number = 55
 let stringnumber = String(number)
 console.log(stringnumber);
 console.log(typeof stringnumber);
+  
+
+
+//    operation   //
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**3) // []**[] that mean power of that number //
+console.log(2%5) // Here % mean remending //
+console.log(2/2)
+
+
+let str1 ="Hello"
+let str2 ="World"
+console.log( str1 + str2 )
+
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2) // Her what ever was first type tha only taken //
+console.log("1"+(2+3)+3)
+// her (2+3) condire as int and other are a string // 
+
+console.log(+true)
+console.log(+"")
+
+let game=100
+game++;
+console.log(game)
