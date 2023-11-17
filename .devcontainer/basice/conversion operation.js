@@ -34,7 +34,7 @@ console.log(2%5) // Here % mean remending //
 console.log(2/2)
 
 
-let str1 ="Hello"
+let str1 ="Hello"  // This is add of two string //
 let str2 ="World"
 console.log( str1 + str2 )
 
@@ -44,9 +44,9 @@ console.log("1"+2+2) // Her what ever was first type tha only taken //
 console.log("1"+(2+3)+3)
 // her (2+3) condire as int and other are a string // 
 
-console.log(+true)
-console.log(+"")
+console.log(+true) //This is not gate of js  
+console.log(+"")//
 
-let game=100
+let game=100   // This is incremint of js
 game++;
 console.log(game)
