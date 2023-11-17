@@ -50,3 +50,5 @@ console.log(+"")//
 let game=100   // This is incremint of js
 game++;
 console.log(game)
+
+
