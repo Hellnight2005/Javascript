@@ -2,7 +2,7 @@
 //const appUser = new Object()
 
 // NoSingleton
-/*
+
 const appUser = {}
 appUser.Id = "123456"
 appUser.name = "Abhijeet"
@@ -50,7 +50,7 @@ console.log(Object.entries(appUser))
 console.log(appUser.hasOwnProperty('isLogged'))
 
 
-*/
+
 
 const Course = {
     Coursename: "Js In Hindi",
