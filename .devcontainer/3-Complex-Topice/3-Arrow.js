@@ -9,9 +9,9 @@ const User = {
 
 }
 
-//User.welcomeMessage()
-//User.Username =  "Yash"
-//User.welcomeMessage()
+User.welcomeMessage()
+User.Username =  "Yash"
+User.welcomeMessage()
 
 //console.log(this);
 
@@ -32,3 +32,4 @@ console.log(Ontwo(5, 8))
 // This Shortcut Method for Above Example
 const AddtwoNumber = (num1, num2) => (num1 + num2)
 console.log(AddtwoNumber(5, 8));
+
