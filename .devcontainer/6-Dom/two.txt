@@ -1,0 +1,68 @@
+
+select the element fro website 
+ then right click to insept
+ then go on console 
+    command document.getElementById('title')
+
+from . you can acess many element such as 
+
+    document.getElementById('title').id
+        it choose only title
+
+    document.getElementById('title').className
+        it containted name of class that you add in title
+
+    document.getElementById('title').getAttribute('id')
+        it will give you all the attribute of given thing
+
+    document.getElementById('title').setAttribute('class','test')
+        here you can Overwrite attribute 
+
+    const title = document.getElementById('title')
+        you can set variable on command to form chain command
+
+here you can performe many operation from  above code 
+    title.style.backgroundColor = 'green' 
+    title.style.padding = '10px'
+    title.style.borderRadius = '3px'
+
+now we want to remove context from title
+
+    title.innerText
+        print text that are vissible by tage it use visual change
+
+    title.innerHTML
+        it print all html with ther tags and also print text
+
+    title.textContent
+        print text that are hidden/vissible by tage it use for hidden change
+
+querySelector
+    document.querySelector('h1')
+        it will select first h1 tag 
+
+    document.querySelector('#title')
+        it will print all attribute of title
+
+    document.querySelector('ul')
+        you can select all unorder list 
+        you can want to choose into unorder list
+        then stored variable first then performe querySelector
+
+        const myul = document.querySelector('ul')
+            it will alway select first from many 
+
+                const turngreen = myul.querySelector('li')
+                    we stored value of first list to performe operation
+
+                turngreen.style.backgroundColor = 'green'
+                    you can change backgroundColor,padding
+
+                turngreen.innertext = 'five'
+                    you can change the value 
+
+querySelectorAll
+
+    document.querySelectorAll('li')
+        it will select all the element of list 
+    
