@@ -11,10 +11,10 @@ all command work in console
     |     |                   |
     |    META             ---DIV-------(ATTRIBUTE)
     |      |              |    |
-TITLE      |             h1--- |--| 
-  |      (ATTRIBUTE)       |  |    P ----- (TEXT
-  |                        |    |           NODE)
-(TEXT                      |  (ATTRIBUTE)
+TITLE      |             h1- - |--| 
+  |      (ATTRIBUTE)      |  |    P ----- (TEXT
+  |                       |  |              NODE)
+(TEXT                     |  (ATTRIBUTE)
 NODE)                   (TEXT
                        NODE)
 
