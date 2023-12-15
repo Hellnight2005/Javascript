@@ -1,0 +1,21 @@
+ Document Object Model (DOM)
+all command work in console 
+
+                WINDOW
+                   | 
+                Document
+                   | 
+      ------------HTML--------
+      |                      |       
+    HEAD---                 BODY    
+    |     |                   |
+    |    META             ---DIV-------(ATTRIBUTE)
+    |      |              |    |
+TITLE      |             h1--- |--| 
+  |      (ATTRIBUTE)       |  |    P ----- (TEXT
+  |                        |    |           NODE)
+(TEXT                      |  (ATTRIBUTE)
+NODE)                   (TEXT
+                       NODE)
+
+                       
