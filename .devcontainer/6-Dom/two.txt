@@ -65,4 +65,25 @@ querySelectorAll
 
     document.querySelectorAll('li')
         it will select all the element of list 
+        it is Nodelist 
+
+    const templi = document.querySelectorAll('li')
+        her you stored the value for more operation      
+        such as change color but it is a nodelist so at a one time 
+        onlyone object
+
+    templi[0].style.color = 'green'
+        her we change the first object into green
+
+    templi.forEach(function(l) {
+        l.style.backgroundcolor = 'green'
+    })
+        here you can performe for forEach loop in 
+        nodelist
     
+    Array.from(temp)
+        above nodelist convert into Array
+        now you can performeall array task
+    
+
+All this Function you can use on website for manipulate value
