@@ -77,7 +77,7 @@ querySelectorAll
 
     templi.forEach(function(l) {
         l.style.backgroundcolor = 'green'
-    })
+     })
         here you can performe for forEach loop in 
         nodelist
     
