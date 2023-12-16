@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai or Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<!-- her you can see hoe to work a back side of console
+fro her you can set your class and style color and many other things  -->
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() *10 +1);
+    div.setAttribute("title","chai aru code");
+    div.style.backgroundColor = "green"
+    div.style.padding = "15px"
+    div.style.borderRadius = "5px"
+ // div.innerText ="Chai Aru Code"
+    const addtext = document.createTextNode("Chai Aru Code") 
+    div.appendChild(addtext)
+
+    const h = document.createElement('h1')
+    h.style.backgroundColor = 'blue'
+    h.style.padding = "15px"
+    const addtext1 = document.createTextNode("Abhijeet")
+    h.appendChild(addtext1)
+    
+
+
+
+
+   document.body.appendChild(div)
+   document.body.appendChild(h)
+
+</script>
+</html>
