@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Abhijeet</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const sayabhijeet = function () {
+        console.log("Abhijeet");
+    }
+    // document.querySelector('h1').innerHTML = "best js script"
+    const changetext = function () {
+        document.querySelector('h1').
+            innerHTML = " JavaScript is working"
+
+    }
+    const changeme = setTimeout(changetext, 2000)
+    // her we creat a event when you click on stop the name will not change
+    document.querySelector('#stop')
+    addEventListener('click',function(){
+        clearTimeout(changeme)
+        console.log("SSSSSSSSSSStop");
+    })
+</script>
+
+</html>
