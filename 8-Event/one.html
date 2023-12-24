@@ -28,6 +28,7 @@
 //         console.log(e);
 //     }, false)
 
+//     Following function use with event
 //     type, timestamp, defaultPrevented, 
 //     target, toElement, srcElemet, currentTarget,
 //     clientX, clienty, screenx, screeny
@@ -51,11 +52,12 @@
 
 document.querySelector('#images').addEventListener('click',function(e){
     console.log(e.target.tagName);
-    if(e.target.tagName === 'IMG'){
+    if(e.target.tagName === 'IMG'){  
         console.log(e.target.id);
+        // it will remove the image form Screen 
         let removeit = e.target.parentNode
         removeit.remove()
-        //removeit.parentNode.removechild(removeit)
+        removeit.parentNode.removechild(removeit)
     }
 
 }, false)
