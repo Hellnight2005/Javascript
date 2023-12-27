@@ -4,7 +4,7 @@
 // console.log(Myname.truelength);
 
 let myHero = ["thor","superman"]
-let heroPower = {
+let heroPower = {                                                          
     thor: "hammer",
     superman: "fly",
 

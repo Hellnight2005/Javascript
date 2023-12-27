@@ -1,7 +1,10 @@
-const accountId = 14458    // const is use for constant variable//
-let accountEmail = "abhijeetshinde2005@gmail.com"  // [let] and [var] used a variables in js//
+// const is use for constant variable//
+const accountId = 14458    
+// [let] and [var] used a variables in js//
+let accountEmail = "abhijeetshinde2005@gmail.com"  
+// you can used your name as variable also //
 var accountPassword = "12345"
-accountCicty = "Pune" // you can used your name as variable also //
+accountCicty = "Pune" 
 let accountStatue;
 
 //accountId = 568 constant value is not change //
