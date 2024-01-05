@@ -20,35 +20,35 @@
    </div>
 </body>
 <script>
-//    document.getElementById('owl').onclick = function(){
-//        alert("Owl Click")
-//     }
+   document.getElementById('owl').onclick = function(){
+       alert("Owl Click")
+    }
 
-//     document.getElementById('owl').addEventListener('click', function(e){
-//         console.log(e);
-//     }, false)
+    document.getElementById('owl').addEventListener('click', function(e){
+        console.log(e);
+    }, false)
 
-//     Following function use with event
-//     type, timestamp, defaultPrevented, 
-//     target, toElement, srcElemet, currentTarget,
-//     clientX, clienty, screenx, screeny
-//     althKey, clrtkey, shiftkey, keycode
+    Following function use with event
+    type, timestamp, defaultPrevented, 
+    target, toElement, srcElemet, currentTarget,
+    clientX, clienty, screenx, screeny
+    althKey, clrtkey, shiftkey, keycode
 
-//     document.getElementById('images').addEventListener('click' , function(e){
-//         console.log("Clicked inside the ul");
-//     },false)
+    document.getElementById('images').addEventListener('click' , function(e){
+        console.log("Clicked inside the ul");
+    },false)
 
 
-//     document.getElementById('owl').addEventListener('click' , function(e){
-//         console.log("owl inside the ul");
-//         e.stopPropagation()
-//     },false)
+    document.getElementById('owl').addEventListener('click' , function(e){
+        console.log("owl inside the ul");
+        e.stopPropagation()
+    },false)
 
-//      document.getElementById('google').addEventListener("click" , function(e){
-//         e.preventDefault();
-//         e.stopPropagation();
-//         console.log("google click");
-//     })
+     document.getElementById('google').addEventListener("click" , function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        console.log("google click");
+    })
 
 document.querySelector('#images').addEventListener('click',function(e){
     console.log(e.target.tagName);
