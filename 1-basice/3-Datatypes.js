@@ -14,7 +14,6 @@ let isLoggedIn = true // bollean type//
     null=> Standard value
     undefined => 
     symbol => unique
-
     object
 */
 console.log(typeof name );
