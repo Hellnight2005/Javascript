@@ -5,7 +5,6 @@ if (UserEmail) {
 }else {
     console.log("Dont Have User name");
 }
-
 /*
 falsy value 
 false, 0, -0, BidInt 0n, "", null, undefinde, NaN
