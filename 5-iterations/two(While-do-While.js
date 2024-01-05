@@ -16,7 +16,6 @@ while (Arr < myArray.length) {
 }
 
 
-
 // Do while Syntax 
 // condition execute then condition check
 let score = 121
