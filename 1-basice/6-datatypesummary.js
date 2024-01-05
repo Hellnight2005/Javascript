@@ -46,7 +46,6 @@ console.log(typeof myfunction)
 // type of function is [function]
 
 
-
                     //  Memory//
 // stack (primitive), Heap (Non-primitive)
 //   call by value      call by reference
