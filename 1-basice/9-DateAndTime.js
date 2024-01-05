@@ -24,6 +24,5 @@ console.log(NewDate)  // For More Information About Date You Can Add With THe He
 
 // [toLocaleDateString()] is very interesting function we can add objects and our default values also
 NewDate.toLocaleDateString('default'{
-    weekday: "long",
-    
+    weekday: "long",    
 })
