@@ -5,18 +5,18 @@ console.log(name + Repocount)
 console.log(`Hello my name is ${name} and my repo is ${Repocount} in github`)
 
 const gameName = new String('Hellnight')
-/* string stored in js
-   H : 0
-   e : 1
-   l : 2
-   l : 3
-   n : 4
-   i : 5
-   g : 6
-   h : 7
-   t : 8 
-this is not an Array itis a Object
-*/
+//  string stored in js
+//    H : 0
+//    e : 1
+//    l : 2
+//    l : 3
+//    n : 4
+//    i : 5
+//    g : 6
+//    h : 7
+//    t : 8 
+// this is not an Array itis a Object
+
 console.log(gameName[0])                   // basic operation of String
 console.log(gameName.__proto__)
 console.log(gameName.length)
