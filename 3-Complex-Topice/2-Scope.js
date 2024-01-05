@@ -15,8 +15,6 @@
   //console.log(c);
 
 
-
-
   //            Nested Scope
 function one(){
     const UserName =  "Abhijeet"
@@ -28,12 +26,4 @@ function one(){
     // console.log(Website); but You can use local variable into gobale variable 
     two()
 }
-//one()
-
-
-
-
-
-
-
-
+//one
