@@ -24,7 +24,6 @@ console.log(stringnumber);
 console.log(typeof stringnumber);
   
 
-
 //    operation   //
 console.log(2+2)
 console.log(2-2)
