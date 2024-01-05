@@ -49,8 +49,7 @@ for (const key in Array1) {
 }
 
 // for in on map 
-/*
+
 for (const key in map) {
     console.log(key)
-}*/
-
+}
