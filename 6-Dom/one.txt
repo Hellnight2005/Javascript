@@ -1,6 +1,7 @@
  Document Object Model (DOM)
 all command work in console 
 
+
                 WINDOW
                    | 
                 Document
