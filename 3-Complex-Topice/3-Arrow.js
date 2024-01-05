@@ -8,7 +8,6 @@ const User = {
     }
 
 }
-
 User.welcomeMessage()
 User.Username =  "Yash"
 User.welcomeMessage()
