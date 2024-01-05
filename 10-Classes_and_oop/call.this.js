@@ -2,7 +2,6 @@ function setusername(username){
     this.username = username
     
 }
-
 function createduser(username,email,password){
     setusername.call(this, username),
     this.email = email,
