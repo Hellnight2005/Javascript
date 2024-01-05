@@ -1,4 +1,4 @@
-/*
+
 const score = 400
 const balance = new Number(1256)
 console.log(balance);
@@ -21,7 +21,7 @@ console.log(Math.floor(4.6));
 console.log(Math.pow(2,3));
 console.log(Math.max(1,2,3,4,5,6));
 console.log(Math.min(1,2,3,4,5,6
-*/    
+ 
 let game = ((Math.random()*10)+1);  // Random function
 console.log(game.toFixed())         // that generat 1 - 10 value
 
