@@ -1,5 +1,5 @@
 /*
-
+Switch Syntax
 switch (key) {
     case value:
         
@@ -9,7 +9,6 @@ switch (key) {
         break;
 }
 */
-
 const month = 3
 switch (month) {
     case 1:
