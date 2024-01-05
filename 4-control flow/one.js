@@ -20,7 +20,7 @@ if (temp < 50){
 } else{
     console.log("Temp is greater than 50");
 }
-/*
+
 // Second method 
 const balanced = 350
 //if (balanced > 500) console.log("test"); 
@@ -35,5 +35,5 @@ if (balanced <=500){
 }else {
     console.log("efficient balance");
 }
-*/
+
 
