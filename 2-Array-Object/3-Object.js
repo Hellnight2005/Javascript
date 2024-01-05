@@ -37,6 +37,5 @@ jsUser.greetingTwo = function(){
 console.log(jsUser.greeting())
 console.log(jsUser.greetingTwo())
 
-
 Object.freeze(jsUser)
 // from this you will be freeze the object 
