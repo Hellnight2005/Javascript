@@ -6,7 +6,7 @@ const Values =coding.forEach(  (item) => {
     return item
 })
 
-//console.log(Values
+//console.log(Values)
 
 
 
